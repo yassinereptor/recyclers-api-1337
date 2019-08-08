@@ -1,0 +1,1369 @@
+Server running on port : 80
+[0mGET / [36m304 [0m9.142 ms - -[0m
+[0mGET / [36m304 [0m1.174 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m52.393 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m21.850 ms - -[0m
+[0mGET /api/admin/users%27 [33m404 [0m2.652 ms - 157[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [32m200 [0m19.390 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [32m200 [0m21.823 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m26.507 ms - -[0m
+[0mGET / [36m304 [0m0.570 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [32m200 [0m22.507 ms - -[0m
+[0mGET / [36m304 [0m0.567 ms - -[0m
+[0mGET /images/users/5d1fce5ecfc0c56b0345152d.png [33m404 [0m1.023 ms - 180[0m
+[0mGET /images/profiles/5d1fce5ecfc0c56b0345152d.png [33m404 [0m0.820 ms - 183[0m
+[0mGET /profiles/5d1fce5ecfc0c56b0345152d.png [32m200 [0m7.538 ms - 1875192[0m
+[0mGET /profiles/5d1fce5ecfc0c56b0345152d.png [32m206 [0m1.728 ms - 32769[0m
+[0mGET /profiles/5d1fce5ecfc0c56b0345152d.png [32m200 [0m1.151 ms - 1875192[0m
+[0mGET /profiles/5d1fce5ecfc0c56b0345152d.png [32m200 [0m1.018 ms - 1875192[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inlhc3NpbmU4NTAwQGdtYWlsLmNvbSIsImlkIjoiNWQxZmNlNWVjZmMwYzU2YjAzNDUxNTJkIiwiZXhwIjoxNTY4NDE0MjMxLCJpYXQiOjE1NjMyMzAyMzF9.lL3VbvOxlagVT2j-oUq4mK1OgBS2Mh7RJSmfymBnijk
+-------------------------------
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inlhc3NpbmU4NTAwQGdtYWlsLmNvbSIsImlkIjoiNWQxZmNlNWVjZmMwYzU2YjAzNDUxNTJkIiwiZXhwIjoxNTY4NDE0MjMxLCJpYXQiOjE1NjMyMzAyMzF9.lL3VbvOxlagVT2j-oUq4mK1OgBS2Mh7RJSmfymBnijk
+-------------------------------
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inlhc3NpbmU4NTAwQGdtYWlsLmNvbSIsImlkIjoiNWQxZmNlNWVjZmMwYzU2YjAzNDUxNTJkIiwiZXhwIjoxNTY4NDE0MjMxLCJpYXQiOjE1NjMyMzAyMzF9.lL3VbvOxlagVT2j-oUq4mK1OgBS2Mh7RJSmfymBnijk
+-------------------------------
+*************************
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d1fce5ecfc0c56b0345152d") }, { projection: {} })
+*************************
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d1fce5ecfc0c56b0345152d") }, { projection: {} })
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d1fce5ecfc0c56b0345152d") }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m36.769 ms - 345[0m
+{ cart: [],
+  bid_list: [],
+  credit: 
+   [ { type: 'MasterCard',
+       card_id: '5d1fce5ecfc0c56b0345152d2019-07-13 02:14:20.641003',
+       card_number: '5656-5456-1615-6156',
+       card_holder: 'Yassine',
+       card_exp: '51/51',
+       card_cvc: '888',
+       card_time: '2019-07-13 02:14:20.642170' },
+     { type: 'Paypal',
+       paypal_email: 'Yassine@gmail.com',
+       card_time: '2019-07-13 03:12:36.441923',
+       card_id: '5d1fce5ecfc0c56b0345152d2019-07-13 03:12:36.441594' },
+     { type: 'Bitcoin',
+       wallet: 'ddsjncjndscds57c57ds45c1456ds1c56ds4cs464641ds1',
+       card_time: '2019-07-13 03:30:56.748680',
+       card_id: '5d1fce5ecfc0c56b0345152d2019-07-13 03:30:56.747244' },
+     { type: 'Visa',
+       card_id: '5d1fce5ecfc0c56b0345152d2019-07-13 03:32:15.788134',
+       card_number: '5156-2564-4561-6151',
+       card_holder: 'Amine Mourchid',
+       card_exp: '56/12',
+       card_cvc: '515',
+       card_time: '2019-07-13 03:32:15.789453' } ],
+  _id: 5d1fce5ecfc0c56b0345152d,
+  email: 'yassine8500@gmail.com',
+  name: 'Yassine Ouarzazi',
+  cin: 'EE8556151',
+  phone: '680105534',
+  seller: true,
+  bayer: false,
+  lat: '0.0',
+  lng: '0.0',
+  country: 'MAR',
+  pos: 'Hay el bahja',
+  profile: 'yes',
+  salt: 'c16fcff21a0432c1bf36c23b57d8e85e',
+  hash: '3bdd7dda31ef7db5b92cdc59b5b8f4345c3b52afb8e5c19aa92ccd5984ccf6f89d70afc00af4965a856590961b6b901819a75cfd18c573639490f49961281631490c9ce1b88b401da8bcc2a1e3d1b0c268fd71cf07f4b6f631f2e97a209a4eec8cfc2ae4201e1bd3c94337d1818fe9119bbee1ae8153c82cc9478d6469ce52e4eca8f22205666e9dfb5d01606d33b845e44c9ad114ad0de9ca7d8520ca7c15908a3562a16cf415c7c5c5c5e0718eddd084c597d6b2ad2dfd04cf0d70790d0d24f1ae46366e7a42b772c168122838030c71ffe58f401c30dfe6efbdc32d77e8e8dfe24985c122693ae7a20e5e0ab5ae4accb869b7fa6f2d5ab337c63ee3507e4c9843834b5d7f7aa511b1ed733aefe878fc86d9232cd668952dd1432e528fc954f7ed280f73f4248e1f4b5071573167664ccee690dae9480bb6b980b4c8ab0929cf04b0103a0ae97529fc117245792d5a353f82386403822903938c68d12894bd49ef4bb051b412b37e5a343f18fa1ab080a899d6abf62e56c114d7450de20a0fa0446dd5a6dc44f950fe6b4bbc21415a96f334e5cf197d32599c27d521e463c9b6784092f9ff402d9c17a44cd3dac1b14cc3af96611c4d0f56877afb87b548ade783ff60370dd818bdd86be77d55f059db46e10c7b1a4b3001b03e834f3e778d374960e84f1c280618db5c66bffd0771dbf87b93eb4aab542b09878307a649e8',
+  __v: 252 }
+{ cart: [],
+  bid_list: [],
+  credit: 
+   [ { type: 'MasterCard',
+       card_id: '5d1fce5ecfc0c56b0345152d2019-07-13 02:14:20.641003',
+       card_number: '5656-5456-1615-6156',
+       card_holder: 'Yassine',
+       card_exp: '51/51',
+       card_cvc: '888',
+       card_time: '2019-07-13 02:14:20.642170' },
+     { type: 'Paypal',
+       paypal_email: 'Yassine@gmail.com',
+       card_time: '2019-07-13 03:12:36.441923',
+       card_id: '5d1fce5ecfc0c56b0345152d2019-07-13 03:12:36.441594' },
+     { type: 'Bitcoin',
+       wallet: 'ddsjncjndscds57c57ds45c1456ds1c56ds4cs464641ds1',
+       card_time: '2019-07-13 03:30:56.748680',
+       card_id: '5d1fce5ecfc0c56b0345152d2019-07-13 03:30:56.747244' },
+     { type: 'Visa',
+       card_id: '5d1fce5ecfc0c56b0345152d2019-07-13 03:32:15.788134',
+       card_number: '5156-2564-4561-6151',
+       card_holder: 'Amine Mourchid',
+       card_exp: '56/12',
+       card_cvc: '515',
+       card_time: '2019-07-13 03:32:15.789453' } ],
+  _id: 5d1fce5ecfc0c56b0345152d,
+  email: 'yassine8500@gmail.com',
+  name: 'Yassine Ouarzazi',
+  cin: 'EE8556151',
+  phone: '680105534',
+  seller: true,
+  bayer: false,
+  lat: '0.0',
+  lng: '0.0',
+  country: 'MAR',
+  pos: 'Hay el bahja',
+  profile: 'yes',
+  salt: 'c16fcff21a0432c1bf36c23b57d8e85e',
+  hash: '3bdd7dda31ef7db5b92cdc59b5b8f4345c3b52afb8e5c19aa92ccd5984ccf6f89d70afc00af4965a856590961b6b901819a75cfd18c573639490f49961281631490c9ce1b88b401da8bcc2a1e3d1b0c268fd71cf07f4b6f631f2e97a209a4eec8cfc2ae4201e1bd3c94337d1818fe9119bbee1ae8153c82cc9478d6469ce52e4eca8f22205666e9dfb5d01606d33b845e44c9ad114ad0de9ca7d8520ca7c15908a3562a16cf415c7c5c5c5e0718eddd084c597d6b2ad2dfd04cf0d70790d0d24f1ae46366e7a42b772c168122838030c71ffe58f401c30dfe6efbdc32d77e8e8dfe24985c122693ae7a20e5e0ab5ae4accb869b7fa6f2d5ab337c63ee3507e4c9843834b5d7f7aa511b1ed733aefe878fc86d9232cd668952dd1432e528fc954f7ed280f73f4248e1f4b5071573167664ccee690dae9480bb6b980b4c8ab0929cf04b0103a0ae97529fc117245792d5a353f82386403822903938c68d12894bd49ef4bb051b412b37e5a343f18fa1ab080a899d6abf62e56c114d7450de20a0fa0446dd5a6dc44f950fe6b4bbc21415a96f334e5cf197d32599c27d521e463c9b6784092f9ff402d9c17a44cd3dac1b14cc3af96611c4d0f56877afb87b548ade783ff60370dd818bdd86be77d55f059db46e10c7b1a4b3001b03e834f3e778d374960e84f1c280618db5c66bffd0771dbf87b93eb4aab542b09878307a649e8',
+  __v: 252 }
+[0mGET /api/current?id=5d1fce5ecfc0c56b0345152d [32m200 [0m154.296 ms - -[0m
+[0mGET /api/current?id=5d1fce5ecfc0c56b0345152d [32m200 [0m127.698 ms - -[0m
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/cart/load [32m200 [0m234.458 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inlhc3NpbmU4NTAwQGdtYWlsLmNvbSIsImlkIjoiNWQxZmNlNWVjZmMwYzU2YjAzNDUxNTJkIiwiZXhwIjoxNTY4NDE0MjMxLCJpYXQiOjE1NjMyMzAyMzF9.lL3VbvOxlagVT2j-oUq4mK1OgBS2Mh7RJSmfymBnijk
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d1fce5ecfc0c56b0345152d") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m39.211 ms - 2[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m21.701 ms - -[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/b76a65976a5d76f5c0767e0cd23a4a74.png [36m304 [0m1.339 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m22.246 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m20.774 ms - -[0m
+{ user_id: '5d1fce5ecfc0c56b0345152d',
+  user_name: 'Admin Admin',
+  title: 'cxzvcxv',
+  desc: 'cxvcxv',
+  price: '6262',
+  quantity: 3,
+  quality: 3,
+  fix: true,
+  bid: false,
+  unit: '4',
+  cat: '3',
+  time: '2019-07-06 02:03:15.216662' }
+[0;36mMongoose:[0m products.insertOne({ images: [], bid_list: [], _id: ObjectId("5d2f2c01856c73305fa9359a"), user_id: [32m'5d1fce5ecfc0c56b0345152d'[39m, user_name: [32m'Admin Admin'[39m, title: [32m'cxzvcxv'[39m, desc: [32m'cxvcxv'[39m, price: [33m6262[39m, quantity: [33m3[39m, quality: [33m3[39m, fix: [33mtrue[39m, bid: [33mfalse[39m, unit: [33m4[39m, cat: [33m3[39m, time: [32m'2019-07-06 02:03:15.216662'[39m, __v: [33m0[39m }, { session: [1mnull[22m })
+[0mPOST /api/admin/product/add [32m200 [0m41.712 ms - 15[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [32m200 [0m25.132 ms - 625[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/ [33m404 [0m0.918 ms - 173[0m
+5d2f2c01856c73305fa9359a
+[0mPOST /api/admin/products/delete [32m200 [0m2.608 ms - 4[0m
+[0;36mMongoose:[0m products._findAndModify({ _id: ObjectId("5d2f2c01856c73305fa9359a") }, [], , { remove: [33mtrue[39m, projection: {} })
+(node:12383) DeprecationWarning: Mongoose: `findOneAndUpdate()` and `findOneAndDelete()` without the `useFindAndModify` option set to false are deprecated. See: https://mongoosejs.com/docs/deprecations.html#-findandmodify-
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [32m200 [0m21.200 ms - 345[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m21.321 ms - -[0m
+[0mGET /robots.txt [33m404 [0m0.522 ms - 149[0m
+[0mGET /profiles/5d1fce5ecfc0c56b0345152d.png [32m200 [0m0.832 ms - 1875192[0m
+[0mGET /favicon.ico [33m404 [0m0.711 ms - 150[0m
+[0mGET /profiles/0.png [33m404 [0m0.667 ms - 153[0m
+[0mGET /profiles/0.png [33m404 [0m0.872 ms - 153[0m
+[0mGET /profiles/5d1fce5ecfc0c56b0345152d.png [36m304 [0m0.323 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m21.991 ms - -[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/b76a65976a5d76f5c0767e0cd23a4a74.png [36m304 [0m0.630 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m22.316 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m22.614 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m22.638 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m23.306 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [32m200 [0m21.518 ms - -[0m
+[0;36mMongoose:[0m users.insertOne({ cart: [], bid_list: [], credit: [], _id: ObjectId("5d2f2e3d856c73305fa9359b"), email: [32m'anasgay@gmail.com'[39m, name: [32m'Anas Gayman'[39m, company_name: [32m''[39m, company_id: [32m''[39m, cin: [32m'EE56156'[39m, phone: [32m'680105534'[39m, seller: [33mtrue[39m, bayer: [33mfalse[39m, lat: [32m'37.41373484103089'[39m, lng: [32m'-122.08573926240206'[39m, country: [32m'MAR'[39m, pos: [32m'1774 Spring St, Mountain View, CA 94043, United States'[39m, profile: [32m'yes'[39m, salt: [32m'ffe19cd55bfee120d4b07f059a241721'[39m, hash: [32m'cf8454f83e086160bea597f5256f3ee25a26d69832c1420211db07e03dd6cebe0d68b5a57675783081208b3d39de66be937cdd7ddd86292e7dd86804ccfa20832d0302e1e8954bc8334720700f34668549426f0792597aedb2ef2654eb19818d4ef8996086f26532133dbe3c03a0a3b86f2c8597df41c8d736f91e6ca1a8bd84925ed7d7cce79e7a272512ac2c77450121f06357c52c6dd982a3953702042470c3bd6d9b1d6afbf72b1c00a514b3625e5f20ec122f256a54e28ec71edbdb1d49126b70c31c0d74cd1ec33854dcf786f22e81bd00266aba77a0e00ff0e0cf40e24241026cb29096cde6c4de356eb11b54edf2392ea89b8c90e1eb5bf6f8aa72515d130fec0a3911f2dcf86e1bd85a3eb5efe59eeb86ea9fb776aee50fbbf3209c39acafa698a2a8c4509f2b3333b70beb2e9cf9604230c1ca588ac0d66019bf923c19defd4d031a83b248ca3f34c79004055b4ab3bfcd4ea98fb891e300700cfd23c8280310cd55bc789c7f278af5d4f1710bf0db2d58380b5917b35fcfbc8906605b38a5baeff5861112f2c7eed89462612c5eb89bb55d856111a935ca7ce5be75298c510ee6c511265d0d0b792a22062494081c381fc462e183669360b3a87e486c3b89ccb92fbaa118eec970ad00d303f857c911ce210464c44e3e8dc25a65350aafd4dd33e17ea49a5500f286f72efb5c2e4dc9632f2371caaac12f3e2df3'[39m, __v: [33m0[39m }, { session: [1mnull[22m })
+[0mPOST /api/signup [32m200 [0m872.597 ms - 290[0m
+null
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+*************************
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+{ cart: [],
+  bid_list: [],
+  credit: [],
+  _id: 5d2f2e3d856c73305fa9359b,
+  email: 'anasgay@gmail.com',
+  name: 'Anas Gayman',
+  company_name: '',
+  company_id: '',
+  cin: 'EE56156',
+  phone: '680105534',
+  seller: true,
+  bayer: false,
+  lat: '37.41373484103089',
+  lng: '-122.08573926240206',
+  country: 'MAR',
+  pos: '1774 Spring St, Mountain View, CA  94043, United States',
+  profile: 'yes',
+  salt: 'ffe19cd55bfee120d4b07f059a241721',
+  hash: 'cf8454f83e086160bea597f5256f3ee25a26d69832c1420211db07e03dd6cebe0d68b5a57675783081208b3d39de66be937cdd7ddd86292e7dd86804ccfa20832d0302e1e8954bc8334720700f34668549426f0792597aedb2ef2654eb19818d4ef8996086f26532133dbe3c03a0a3b86f2c8597df41c8d736f91e6ca1a8bd84925ed7d7cce79e7a272512ac2c77450121f06357c52c6dd982a3953702042470c3bd6d9b1d6afbf72b1c00a514b3625e5f20ec122f256a54e28ec71edbdb1d49126b70c31c0d74cd1ec33854dcf786f22e81bd00266aba77a0e00ff0e0cf40e24241026cb29096cde6c4de356eb11b54edf2392ea89b8c90e1eb5bf6f8aa72515d130fec0a3911f2dcf86e1bd85a3eb5efe59eeb86ea9fb776aee50fbbf3209c39acafa698a2a8c4509f2b3333b70beb2e9cf9604230c1ca588ac0d66019bf923c19defd4d031a83b248ca3f34c79004055b4ab3bfcd4ea98fb891e300700cfd23c8280310cd55bc789c7f278af5d4f1710bf0db2d58380b5917b35fcfbc8906605b38a5baeff5861112f2c7eed89462612c5eb89bb55d856111a935ca7ce5be75298c510ee6c511265d0d0b792a22062494081c381fc462e183669360b3a87e486c3b89ccb92fbaa118eec970ad00d303f857c911ce210464c44e3e8dc25a65350aafd4dd33e17ea49a5500f286f72efb5c2e4dc9632f2371caaac12f3e2df3',
+  __v: 0 }
+[0mGET /api/current?id=5d2f2e3d856c73305fa9359b [32m200 [0m23.240 ms - -[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+*************************
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m23.344 ms - 345[0m
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+{ cart: [],
+  bid_list: [],
+  credit: [],
+  _id: 5d2f2e3d856c73305fa9359b,
+  email: 'anasgay@gmail.com',
+  name: 'Anas Gayman',
+  company_name: '',
+  company_id: '',
+  cin: 'EE56156',
+  phone: '680105534',
+  seller: true,
+  bayer: false,
+  lat: '37.41373484103089',
+  lng: '-122.08573926240206',
+  country: 'MAR',
+  pos: '1774 Spring St, Mountain View, CA  94043, United States',
+  profile: 'yes',
+  salt: 'ffe19cd55bfee120d4b07f059a241721',
+  hash: 'cf8454f83e086160bea597f5256f3ee25a26d69832c1420211db07e03dd6cebe0d68b5a57675783081208b3d39de66be937cdd7ddd86292e7dd86804ccfa20832d0302e1e8954bc8334720700f34668549426f0792597aedb2ef2654eb19818d4ef8996086f26532133dbe3c03a0a3b86f2c8597df41c8d736f91e6ca1a8bd84925ed7d7cce79e7a272512ac2c77450121f06357c52c6dd982a3953702042470c3bd6d9b1d6afbf72b1c00a514b3625e5f20ec122f256a54e28ec71edbdb1d49126b70c31c0d74cd1ec33854dcf786f22e81bd00266aba77a0e00ff0e0cf40e24241026cb29096cde6c4de356eb11b54edf2392ea89b8c90e1eb5bf6f8aa72515d130fec0a3911f2dcf86e1bd85a3eb5efe59eeb86ea9fb776aee50fbbf3209c39acafa698a2a8c4509f2b3333b70beb2e9cf9604230c1ca588ac0d66019bf923c19defd4d031a83b248ca3f34c79004055b4ab3bfcd4ea98fb891e300700cfd23c8280310cd55bc789c7f278af5d4f1710bf0db2d58380b5917b35fcfbc8906605b38a5baeff5861112f2c7eed89462612c5eb89bb55d856111a935ca7ce5be75298c510ee6c511265d0d0b792a22062494081c381fc462e183669360b3a87e486c3b89ccb92fbaa118eec970ad00d303f857c911ce210464c44e3e8dc25a65350aafd4dd33e17ea49a5500f286f72efb5c2e4dc9632f2371caaac12f3e2df3',
+  __v: 0 }
+[0mGET /api/current?id=5d2f2e3d856c73305fa9359b [32m200 [0m26.623 ms - -[0m
+[0mPOST /api/cart/load [32m200 [0m48.027 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m42.366 ms - 2[0m
+[0mGET /profiles/5d2f2e3d856c73305fa9359b.png [32m200 [0m1.272 ms - 1492677[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/b76a65976a5d76f5c0767e0cd23a4a74.png [32m200 [0m1.052 ms - 1875192[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m21.156 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [32m200 [0m22.130 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m24.890 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m25.974 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [32m200 [0m21.118 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m22.215 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m23.023 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m33.229 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m20.231 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m23.405 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m22.881 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m23.256 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m20.849 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m21.892 ms - -[0m
+[0mGET /profiles/5d2f2e3d856c73305fa9359b.png [32m200 [0m0.662 ms - 1492677[0m
+[0mGET /profiles/5d1fce5ecfc0c56b0345152d.png [36m304 [0m0.490 ms - -[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m22.673 ms - 345[0m
+[0mPOST /api/cart/load [32m200 [0m40.754 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m41.425 ms - 2[0m
+[0mGET / [32m200 [0m0.602 ms - 7[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+{ user_id: '5d2f2e3d856c73305fa9359b',
+  user_name: 'Anas Gayman',
+  title: 'Deldols for sell',
+  desc: 'used deldols, first hand fro personal use',
+  price: 0.5,
+  quantity: 100,
+  quality: 5,
+  fix: true,
+  bid: false,
+  unit: 8,
+  cat: 6,
+  time: '2019-07-17 15:25:46.146617',
+  lat: '37.41764694383964',
+  lng: '-122.09064569324255',
+  pos: '1978 Plymouth St, Mountain View, CA  94043, United States' }
+[0;36mMongoose:[0m products.insertOne({ images: [ [32m'aa1ceb70ff1711c0b5f6cfa01217f4c8.png'[39m, [32m'2bbcd33809755885f3210a91a3313293.png'[39m ], bid_list: [], _id: ObjectId("5d2f2feb856c73305fa9359c"), user_id: [32m'5d2f2e3d856c73305fa9359b'[39m, user_name: [32m'Anas Gayman'[39m, title: [32m'Deldols for sell'[39m, desc: [32m'used deldols, first hand fro personal use'[39m, price: [33m0.5[39m, quantity: [33m100[39m, quality: [33m5[39m, fix: [33mtrue[39m, bid: [33mfalse[39m, unit: [33m8[39m, cat: [33m6[39m, time: [32m'2019-07-17 15:25:46.146617'[39m, lat: [32m'37.41764694383964'[39m, lng: [32m'-122.09064569324255'[39m, pos: [32m'1978 Plymouth St, Mountain View, CA 94043, United States'[39m, __v: [33m0[39m }, { session: [1mnull[22m })
+[0mPOST /api/product/add [32m200 [0m1085.454 ms - 15[0m
+null
+null
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[ { images: 
+     [ 'aa1ceb70ff1711c0b5f6cfa01217f4c8.png',
+       '2bbcd33809755885f3210a91a3313293.png' ],
+    bid_list: [],
+    _id: 5d2f2feb856c73305fa9359c,
+    user_id: '5d2f2e3d856c73305fa9359b',
+    user_name: 'Anas Gayman',
+    title: 'Deldols for sell',
+    desc: 'used deldols, first hand fro personal use',
+    price: 0.5,
+    quantity: 100,
+    quality: 5,
+    fix: true,
+    bid: false,
+    unit: 8,
+    cat: 6,
+    time: '2019-07-17 15:25:46.146617',
+    lat: '37.41764694383964',
+    lng: '-122.09064569324255',
+    pos: '1978 Plymouth St, Mountain View, CA  94043, United States',
+    __v: 0 },
+  { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m27.537 ms - 867[0m
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/cart/load [32m200 [0m43.335 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m41.265 ms - 2[0m
+[0mGET /products/5d2f2e3d856c73305fa9359b/aa1ceb70ff1711c0b5f6cfa01217f4c8.png [32m200 [0m1.566 ms - 1875192[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m24.165 ms - -[0m
+[0;36mMongoose:[0m reviews.find({ post_id: [32m'5d2f2feb856c73305fa9359c'[39m }, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0mPOST /api/product/review/load [32m200 [0m22.949 ms - 2[0m
+[0mGET /products/5d2f2e3d856c73305fa9359b/2bbcd33809755885f3210a91a3313293.png [32m200 [0m2.701 ms - 2580504[0m
+[0;36mMongoose:[0m reviews.find({ post_id: [32m'5d2f2feb856c73305fa9359c'[39m }, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0mPOST /api/product/review/load [32m200 [0m28.869 ms - 2[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m42.808 ms - -[0m
+[0mGET /profiles/5d2f2e3d856c73305fa9359b.png [36m304 [0m1.062 ms - -[0m
+[0mGET /profiles/5d1fce5ecfc0c56b0345152d.png [36m304 [0m0.597 ms - -[0m
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+{ cart: [],
+  bid_list: [],
+  credit: [],
+  _id: 5d2f2e3d856c73305fa9359b,
+  email: 'anasgay@gmail.com',
+  name: 'Anas Gayman',
+  company_name: '',
+  company_id: '',
+  cin: 'EE56156',
+  phone: '680105534',
+  seller: true,
+  bayer: false,
+  lat: '37.41373484103089',
+  lng: '-122.08573926240206',
+  country: 'MAR',
+  pos: '1774 Spring St, Mountain View, CA  94043, United States',
+  profile: 'yes',
+  salt: 'ffe19cd55bfee120d4b07f059a241721',
+  hash: 'cf8454f83e086160bea597f5256f3ee25a26d69832c1420211db07e03dd6cebe0d68b5a57675783081208b3d39de66be937cdd7ddd86292e7dd86804ccfa20832d0302e1e8954bc8334720700f34668549426f0792597aedb2ef2654eb19818d4ef8996086f26532133dbe3c03a0a3b86f2c8597df41c8d736f91e6ca1a8bd84925ed7d7cce79e7a272512ac2c77450121f06357c52c6dd982a3953702042470c3bd6d9b1d6afbf72b1c00a514b3625e5f20ec122f256a54e28ec71edbdb1d49126b70c31c0d74cd1ec33854dcf786f22e81bd00266aba77a0e00ff0e0cf40e24241026cb29096cde6c4de356eb11b54edf2392ea89b8c90e1eb5bf6f8aa72515d130fec0a3911f2dcf86e1bd85a3eb5efe59eeb86ea9fb776aee50fbbf3209c39acafa698a2a8c4509f2b3333b70beb2e9cf9604230c1ca588ac0d66019bf923c19defd4d031a83b248ca3f34c79004055b4ab3bfcd4ea98fb891e300700cfd23c8280310cd55bc789c7f278af5d4f1710bf0db2d58380b5917b35fcfbc8906605b38a5baeff5861112f2c7eed89462612c5eb89bb55d856111a935ca7ce5be75298c510ee6c511265d0d0b792a22062494081c381fc462e183669360b3a87e486c3b89ccb92fbaa118eec970ad00d303f857c911ce210464c44e3e8dc25a65350aafd4dd33e17ea49a5500f286f72efb5c2e4dc9632f2371caaac12f3e2df3',
+  __v: 0 }
+[0mPOST /api/info [32m200 [0m24.263 ms - -[0m
+{ post_user_id: '5d2f2e3d856c73305fa9359b',
+  user_id: '5d2f2e3d856c73305fa9359b',
+  post_id: '5d2f2feb856c73305fa9359c',
+  text: 'Please I want money my ass is hurting me. and I don’t have clients right now',
+  rate: 5,
+  profile: 'yes',
+  time: '2019-07-17 15:28:21.464248' }
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m reviews.insertOne({ _id: ObjectId("5d2f3085856c73305fa9359d"), post_user_id: [32m'5d2f2e3d856c73305fa9359b'[39m, user_id: [32m'5d2f2e3d856c73305fa9359b'[39m, post_id: [32m'5d2f2feb856c73305fa9359c'[39m, text: [32m'Please I want money my ass is hurting me. and I don’t have clients right now'[39m, rate: [33m5[39m, profile: [32m'yes'[39m, user_name: [32m'Anas Gayman'[39m, __v: [33m0[39m }, { session: [1mnull[22m })
+[0mPOST /api/product/review [32m200 [0m45.898 ms - 15[0m
+[0;36mMongoose:[0m reviews.find({ post_id: [32m'5d2f2feb856c73305fa9359c'[39m }, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0mPOST /api/product/review/load [32m200 [0m25.254 ms - 299[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [32m200 [0m31.786 ms - 867[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/b76a65976a5d76f5c0767e0cd23a4a74.png [36m304 [0m0.672 ms - -[0m
+[0mGET /products/5d2f2e3d856c73305fa9359b/aa1ceb70ff1711c0b5f6cfa01217f4c8.png,2bbcd33809755885f3210a91a3313293.png [33m404 [0m1.236 ms - 246[0m
+5d2f2feb856c73305fa9359c
+[0mPOST /api/admin/products/delete [32m200 [0m1.786 ms - 4[0m
+[0;36mMongoose:[0m products._findAndModify({ _id: ObjectId("5d2f2feb856c73305fa9359c") }, [], , { remove: [33mtrue[39m, projection: {} })
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [32m200 [0m20.183 ms - 345[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m21.687 ms - -[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/b76a65976a5d76f5c0767e0cd23a4a74.png [36m304 [0m0.588 ms - -[0m
+{ user_id: '5d1fce5ecfc0c56b0345152d',
+  user_name: 'Admin Admin',
+  title: 'df',
+  desc: 'fddddd',
+  price: '',
+  quantity: 1,
+  quality: 3,
+  fix: true,
+  bid: false,
+  unit: '3',
+  cat: '2',
+  time: '2019-07-06 02:03:15.216662' }
+[0;36mMongoose:[0m products.insertOne({ images: [], bid_list: [], _id: ObjectId("5d2f30d3856c73305fa9359e"), user_id: [32m'5d1fce5ecfc0c56b0345152d'[39m, user_name: [32m'Admin Admin'[39m, title: [32m'df'[39m, desc: [32m'fddddd'[39m, price: [1mnull[22m, quantity: [33m1[39m, quality: [33m3[39m, fix: [33mtrue[39m, bid: [33mfalse[39m, unit: [33m3[39m, cat: [33m2[39m, time: [32m'2019-07-06 02:03:15.216662'[39m, __v: [33m0[39m }, { session: [1mnull[22m })
+[0mPOST /api/admin/product/add [32m200 [0m25.393 ms - 15[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [32m200 [0m22.382 ms - 620[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/ [33m404 [0m1.183 ms - 173[0m
+5d2f30d3856c73305fa9359e
+[0mPOST /api/admin/products/delete [32m200 [0m1.760 ms - 4[0m
+[0;36mMongoose:[0m products._findAndModify({ _id: ObjectId("5d2f30d3856c73305fa9359e") }, [], , { remove: [33mtrue[39m, projection: {} })
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [32m200 [0m21.562 ms - 345[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m21.829 ms - -[0m
+{ user_id: '5d1fce5ecfc0c56b0345152d',
+  user_name: 'Admin Admin',
+  title: 'mi20271',
+  desc: 'sds',
+  price: '',
+  quantity: 4,
+  quality: 5,
+  fix: true,
+  bid: false,
+  unit: 'Kg',
+  cat: '5',
+  time: '2019-07-06 02:03:15.216662' }
+(node:12383) UnhandledPromiseRejectionWarning: ValidationError: Product validation failed: unit: Cast to Number failed for value "Kg" at path "unit"
+    at new ValidationError (/root/recyclers_api/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/root/recyclers_api/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/root/recyclers_api/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/root/recyclers_api/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/root/recyclers_api/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/root/recyclers_api/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/root/recyclers_api/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/root/recyclers_api/node_modules/mongoose/lib/model.js:4673:15)
+    at router.post (/root/recyclers_api/route.js:775:26)
+    at Layer.handle [as handle_request] (/root/recyclers_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/recyclers_api/node_modules/express/lib/router/route.js:137:13)
+    at middleware (/root/recyclers_api/node_modules/express-jwt/lib/index.js:78:16)
+    at Layer.handle [as handle_request] (/root/recyclers_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/recyclers_api/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/recyclers_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/recyclers_api/node_modules/express/lib/router/layer.js:95:5)
+(node:12383) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:12383) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m20.298 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m20.305 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m24.962 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m21.713 ms - -[0m
+{ user_id: '5d1fce5ecfc0c56b0345152d',
+  user_name: 'Admin Admin',
+  title: 'mi20271',
+  desc: 'sassdasd',
+  price: '',
+  quantity: 5,
+  quality: 5,
+  fix: true,
+  bid: false,
+  unit: '4',
+  cat: '5',
+  time: '2019-07-06 02:03:15.216662' }
+[0;36mMongoose:[0m products.insertOne({ images: [], bid_list: [], _id: ObjectId("5d2f310e856c73305fa935a0"), user_id: [32m'5d1fce5ecfc0c56b0345152d'[39m, user_name: [32m'Admin Admin'[39m, title: [32m'mi20271'[39m, desc: [32m'sassdasd'[39m, price: [1mnull[22m, quantity: [33m5[39m, quality: [33m5[39m, fix: [33mtrue[39m, bid: [33mfalse[39m, unit: [33m4[39m, cat: [33m5[39m, time: [32m'2019-07-06 02:03:15.216662'[39m, __v: [33m0[39m }, { session: [1mnull[22m })
+[0mPOST /api/admin/product/add [32m200 [0m24.770 ms - 15[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [32m200 [0m22.485 ms - 627[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/ [33m404 [0m0.935 ms - 173[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+5d2f310e856c73305fa935a0
+[0mPOST /api/admin/products/delete [32m200 [0m1.153 ms - 4[0m
+[0;36mMongoose:[0m products._findAndModify({ _id: ObjectId("5d2f310e856c73305fa935a0") }, [], , { remove: [33mtrue[39m, projection: {} })
+[0mGET /api/admin/products [36m304 [0m27.666 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [32m200 [0m21.710 ms - 345[0m
+{ user_id: '5d1fce5ecfc0c56b0345152d',
+  user_name: 'Admin Admin',
+  title: 'Brahim Elbouziani',
+  desc: 'sassdasd',
+  price: '0',
+  quantity: 5,
+  quality: 5,
+  fix: true,
+  bid: false,
+  unit: '4',
+  cat: '4',
+  time: '2019-07-06 02:03:15.216662' }
+[0;36mMongoose:[0m products.insertOne({ images: [], bid_list: [], _id: ObjectId("5d2f3124856c73305fa935a1"), user_id: [32m'5d1fce5ecfc0c56b0345152d'[39m, user_name: [32m'Admin Admin'[39m, title: [32m'Brahim Elbouziani'[39m, desc: [32m'sassdasd'[39m, price: [33m0[39m, quantity: [33m5[39m, quality: [33m5[39m, fix: [33mtrue[39m, bid: [33mfalse[39m, unit: [33m4[39m, cat: [33m4[39m, time: [32m'2019-07-06 02:03:15.216662'[39m, __v: [33m0[39m }, { session: [1mnull[22m })
+[0mPOST /api/admin/product/add [32m200 [0m25.668 ms - 15[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [32m200 [0m24.006 ms - 634[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/ [33m404 [0m0.440 ms - 173[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+5d2f310e856c73305fa935a0
+[0mPOST /api/admin/products/delete [32m200 [0m0.935 ms - 4[0m
+[0;36mMongoose:[0m products._findAndModify({ _id: ObjectId("5d2f310e856c73305fa935a0") }, [], , { remove: [33mtrue[39m, projection: {} })
+[0mGET /api/admin/products [36m304 [0m23.015 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m25.250 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m23.029 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m22.375 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m22.969 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m31.728 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m25.567 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m20.095 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m23.471 ms - -[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/ [33m404 [0m0.808 ms - 173[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m22.836 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m22.595 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m20.677 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m22.220 ms - -[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/ [33m404 [0m0.448 ms - 173[0m
+5d2f3124856c73305fa935a1
+[0mPOST /api/admin/products/delete [32m200 [0m0.977 ms - 4[0m
+[0;36mMongoose:[0m products._findAndModify({ _id: ObjectId("5d2f3124856c73305fa935a1") }, [], , { remove: [33mtrue[39m, projection: {} })
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [32m200 [0m22.466 ms - 345[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m20.235 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m20.348 ms - -[0m
+[0mGET /profiles/5d2f2e3d856c73305fa9359b.png [36m304 [0m0.572 ms - -[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m products.find({ [32m'$or'[39m: [ { cat: [33m6[39m } ] }, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[]
+[0mPOST /api/product/load [32m200 [0m23.144 ms - 2[0m
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/cart/load [32m200 [0m52.308 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m43.513 ms - 2[0m
+[0mGET /profiles/5d1fce5ecfc0c56b0345152d.png [36m304 [0m0.548 ms - -[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ [32m'$or'[39m: [ { cat: [33m1[39m }, { cat: [33m6[39m } ] }, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m21.843 ms - 345[0m
+[0mPOST /api/cart/load [32m200 [0m50.390 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m39.772 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ [32m'$or'[39m: [ { cat: [33m1[39m } ] }, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m20.510 ms - 345[0m
+[0mPOST /api/cart/load [32m200 [0m38.368 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m57.743 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m22.205 ms - 345[0m
+[0mPOST /api/cart/load [32m200 [0m40.939 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m43.715 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/cart/load [32m200 [0m41.917 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m45.567 ms - 2[0m
+[0;36mMongoose:[0m products.find({ [32m'$or'[39m: [ { cat: [33m6[39m } ] }, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[]
+[0mPOST /api/product/load [32m200 [0m24.019 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m38.479 ms - 345[0m
+[0mPOST /api/cart/load [32m200 [0m43.281 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m43.372 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ [32m'$or'[39m: [ { cat: [33m5[39m } ] }, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[]
+[0mPOST /api/product/load [32m200 [0m19.531 ms - 2[0m
+[0mPOST /api/cart/load [32m200 [0m39.127 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m42.230 ms - 2[0m
+[0mPOST /api/admin/product/add [0m- [0m- ms - -[0m
+{ user_id: '5d1fce5ecfc0c56b0345152d',
+  user_name: 'Admin Admin',
+  title: 'mi20271',
+  desc: 'sds',
+  price: '',
+  quantity: 4,
+  quality: 5,
+  fix: true,
+  bid: false,
+  unit: 'Kg',
+  cat: '5',
+  time: '2019-07-06 02:03:15.216662' }
+(node:12383) UnhandledPromiseRejectionWarning: ValidationError: Product validation failed: unit: Cast to Number failed for value "Kg" at path "unit"
+    at new ValidationError (/root/recyclers_api/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/root/recyclers_api/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/root/recyclers_api/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/root/recyclers_api/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/root/recyclers_api/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/root/recyclers_api/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/root/recyclers_api/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/root/recyclers_api/node_modules/mongoose/lib/model.js:4673:15)
+    at router.post (/root/recyclers_api/route.js:775:26)
+    at Layer.handle [as handle_request] (/root/recyclers_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/recyclers_api/node_modules/express/lib/router/route.js:137:13)
+    at middleware (/root/recyclers_api/node_modules/express-jwt/lib/index.js:78:16)
+    at Layer.handle [as handle_request] (/root/recyclers_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/recyclers_api/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/recyclers_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/recyclers_api/node_modules/express/lib/router/layer.js:95:5)
+(node:12383) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0mPOST /api/cart/load [32m200 [0m40.430 ms - 2[0m
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m23.220 ms - 345[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m50.151 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ [32m'$or'[39m: [ { cat: [33m4[39m } ] }, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[]
+[0mPOST /api/product/load [32m200 [0m30.673 ms - 2[0m
+[0mPOST /api/cart/load [32m200 [0m50.982 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m39.813 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m22.093 ms - 345[0m
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/cart/load [32m200 [0m52.568 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m47.608 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ [32m'$or'[39m: [ { cat: [33m1[39m } ] }, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m21.963 ms - 345[0m
+[0mPOST /api/cart/load [32m200 [0m38.581 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m37.815 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m22.151 ms - 345[0m
+[0mPOST /api/cart/load [32m200 [0m41.905 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m41.546 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ [32m'$or'[39m: [ { cat: [33m2[39m } ] }, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[]
+[0mPOST /api/product/load [32m200 [0m19.985 ms - 2[0m
+[0mPOST /api/cart/load [32m200 [0m39.637 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m40.814 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m20.010 ms - 345[0m
+[0mPOST /api/cart/load [32m200 [0m39.345 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m40.785 ms - 2[0m
+[0;36mMongoose:[0m products.find({ [32m'$or'[39m: [ { cat: [33m3[39m } ] }, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[]
+[0mPOST /api/product/load [32m200 [0m18.996 ms - 2[0m
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/cart/load [32m200 [0m38.635 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m47.386 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m22.123 ms - 345[0m
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/cart/load [32m200 [0m45.251 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m39.809 ms - 2[0m
+[0;36mMongoose:[0m products.find({ [32m'$or'[39m: [ { cat: [33m4[39m } ] }, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[]
+[0mPOST /api/product/load [32m200 [0m20.098 ms - 2[0m
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/cart/load [32m200 [0m39.080 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m41.647 ms - 2[0m
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m19.211 ms - 345[0m
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/cart/load [32m200 [0m40.998 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m42.367 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0;36mMongoose:[0m products.find({ [32m'$or'[39m: [ { cat: [33m6[39m } ] }, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0mPOST /api/cart/load [32m200 [0m40.181 ms - 2[0m
+[]
+[0mPOST /api/product/load [32m200 [0m19.591 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m39.340 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m19.820 ms - 345[0m
+[0mPOST /api/cart/load [32m200 [0m36.545 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m38.085 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m21.815 ms - 345[0m
+[0mPOST /api/cart/load [32m200 [0m39.044 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m39.896 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ [32m'$or'[39m: [ { cat: [33m1[39m } ] }, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m23.735 ms - 345[0m
+[0mPOST /api/cart/load [32m200 [0m39.921 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m41.166 ms - 2[0m
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m23.648 ms - 345[0m
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/cart/load [32m200 [0m40.675 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m38.606 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m19.860 ms - 345[0m
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/cart/load [32m200 [0m41.370 ms - 2[0m
+-------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYXNnYXlAZ21haWwuY29tIiwiaWQiOiI1ZDJmMmUzZDg1NmM3MzMwNWZhOTM1OWIiLCJleHAiOjE1Njg1NTcxMTcsImlhdCI6MTU2MzM3MzExN30.G3dMcR5KaUnvVm9q7RtwgZJLs9c4VSnoj7nf1yxm2dY
+-------------------------------
+[0;36mMongoose:[0m users.findOne({ _id: ObjectId("5d2f2e3d856c73305fa9359b") }, { projection: {} })
+[0;36mMongoose:[0m products.find({ _id: { [32m'$in'[39m: [] } }, { projection: {} })
+[0mPOST /api/bid/load [32m200 [0m39.978 ms - 2[0m
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m19.383 ms - 345[0m
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m2577.812 ms - 345[0m
+[0;36mMongoose:[0m products.find({}, { sort: [ [ [32m'time'[39m, [33m-1[39m ] ], skip: [33m0[39m, limit: [33m10[39m, projection: {} })
+[ { images: [ 'b76a65976a5d76f5c0767e0cd23a4a74.png' ],
+    bid_list: [],
+    _id: 5d2a3ea6b4da387ef1aaa5fc,
+    user_id: '5d1fce5ecfc0c56b0345152d',
+    user_name: 'Yassine Ouarzazi',
+    title: 'Titlemaps test',
+    desc: 'vkldfjnvfdvfdvdfvf',
+    price: 5615,
+    quantity: 621,
+    quality: 4,
+    fix: true,
+    bid: false,
+    unit: 1,
+    cat: 1,
+    time: '2019-07-13 21:27:16.939223',
+    __v: 0 } ]
+[0mPOST /api/product/load [32m200 [0m22.094 ms - 345[0m
+[0mPOST /api/admin/product/add [0m- [0m- ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m24.964 ms - -[0m
+[0mGET /profiles/5d1fce5ecfc0c56b0345152d.png [36m304 [0m0.472 ms - -[0m
+[0mGET /profiles/5d2f2e3d856c73305fa9359b.png [36m304 [0m0.686 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m21.298 ms - -[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/b76a65976a5d76f5c0767e0cd23a4a74.png [36m304 [0m0.677 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m19.998 ms - -[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m22.947 ms - -[0m
+[0mGET /profiles/5d2f2e3d856c73305fa9359b.png [36m304 [0m0.597 ms - -[0m
+[0mGET /profiles/5d1fce5ecfc0c56b0345152d.png [36m304 [0m0.629 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m19.788 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [32m200 [0m19.086 ms - 345[0m
+{ user_id: '5d1fce5ecfc0c56b0345152d',
+  user_name: 'Admin Admin',
+  title: 'mi20271',
+  desc: 'sdsd',
+  price: '656565',
+  quantity: 4,
+  quality: 4,
+  fix: true,
+  bid: false,
+  unit: '5',
+  cat: '3',
+  time: '2019-07-06 02:03:15.216662' }
+[0;36mMongoose:[0m products.insertOne({ images: [ [32m'693e9af84d3dfcc71e640e005bdc5e2e.png'[39m ], bid_list: [], _id: ObjectId("5d2f3367856c73305fa935a3"), user_id: [32m'5d1fce5ecfc0c56b0345152d'[39m, user_name: [32m'Admin Admin'[39m, title: [32m'mi20271'[39m, desc: [32m'sdsd'[39m, price: [33m656565[39m, quantity: [33m4[39m, quality: [33m4[39m, fix: [33mtrue[39m, bid: [33mfalse[39m, unit: [33m5[39m, cat: [33m3[39m, time: [32m'2019-07-06 02:03:15.216662'[39m, __v: [33m0[39m }, { session: [1mnull[22m })
+null
+[0mPOST /api/admin/product/add [32m200 [0m439.386 ms - 15[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [32m200 [0m30.455 ms - 663[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/693e9af84d3dfcc71e640e005bdc5e2e.png [33m404 [0m0.303 ms - 209[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [32m200 [0m21.921 ms - 663[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m19.489 ms - -[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/693e9af84d3dfcc71e640e005bdc5e2e.png [33m404 [0m8.671 ms - 209[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/b76a65976a5d76f5c0767e0cd23a4a74.png [36m304 [0m1.308 ms - -[0m
+[0mGET / [32m200 [0m0.936 ms - 7[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m21.589 ms - -[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/b76a65976a5d76f5c0767e0cd23a4a74.png [36m304 [0m0.555 ms - -[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/693e9af84d3dfcc71e640e005bdc5e2e.png [33m404 [0m0.643 ms - 209[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m22.709 ms - -[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/b76a65976a5d76f5c0767e0cd23a4a74.png [36m304 [0m1.076 ms - -[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/693e9af84d3dfcc71e640e005bdc5e2e.png [33m404 [0m1.016 ms - 209[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m18.956 ms - -[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/b76a65976a5d76f5c0767e0cd23a4a74.png [36m304 [0m1.234 ms - -[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/693e9af84d3dfcc71e640e005bdc5e2e.png [33m404 [0m1.087 ms - 209[0m
+[0;36mMongoose:[0m users.find({}, { projection: {} })
+[0mGET /api/admin/users [36m304 [0m21.802 ms - -[0m
+[0mGET /profiles/5d1fce5ecfc0c56b0345152d.png [36m304 [0m0.351 ms - -[0m
+[0mGET /profiles/5d2f2e3d856c73305fa9359b.png [36m304 [0m0.531 ms - -[0m
+[0;36mMongoose:[0m products.find({}, { projection: {} })
+[0mGET /api/admin/products [36m304 [0m20.934 ms - -[0m
+[0mGET /products/5d1fce5ecfc0c56b0345152d/693e9af84d3dfcc71e640e005bdc5e2e.png [33m404 [0m0.821 ms - 209[0m
